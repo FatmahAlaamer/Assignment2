@@ -47,3 +47,23 @@ This document details the technical implementation of the Personal Portfolio web
 - Integration with a **Node.js/Express** backend.
 - Implementation of a real **Database** (MongoDB or MySQL) to store project details.
 - Adding a **Dark Mode** toggle persistent across sessions.
+
+# Technical Documentation - Assignment 2 Updates
+
+## 1. New Features & Interactivity
+- **Theme Persistence:** Implemented a Dark/Light mode toggle. The state is managed using `localStorage`, fulfilling the data handling requirement.
+- **Project Detail Toggles:** Added dynamic "View Details" buttons on project cards using DOM manipulation to show/hide extra content.
+- **Smooth Scroll & Reveal:** Integrated CSS transitions combined with the JavaScript `Intersection Observer API` for a professional fade-in animation during scrolling.
+
+## 2. Front-End Enhancements
+- **CSS Flexbox Alignment:** Improved the navigation bar layout using `align-items: center` to ensure the logo, links, and theme toggle are perfectly aligned.
+- **Responsive Images:** Added `object-fit: cover` to project images to maintain a consistent aspect ratio regardless of the original image dimensions.
+- **Form Validation:** Enhanced the contact form with custom JavaScript validation to provide immediate user feedback without page reloads.
+
+## 3. Projects Added
+- **Cartier VR Store (Spatial):** A VR UX/UI project focused on luxury brand identity in the metaverse.
+- **SAR Train UX Optimization:** A service design study addressing user pain points and proposing productivity/relaxation cabin concepts.
+
+## 4. Known Limitations & Next Steps
+- Images are stored locally in the `assets/images/` folder.
+- Future steps involve connecting the contact form to a real backend service (e.g., Formspree or a Node.js server).
