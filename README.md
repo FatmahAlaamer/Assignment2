@@ -1,46 +1,48 @@
-*Personal Portfolio - Assignment 2*
-Project Overview
-An interactive personal portfolio built for the SWE363 course, showcasing my software engineering projects and UX designs (Cartier VR & SAR).
+📝 Project Overview
+An interactive personal portfolio developed for the SWE363 course. This version focuses on enhancing user experience (UX) through dynamic features, showcasing my software engineering projects and design studies, specifically the Cartier VR Store and SAR Train UX Optimization.
 
-Key Features
-Interactive Theme: Dark/Light mode toggle with persistence using localStorage.
+✨ Key Features
+🌓 Adaptive Theme: Dark/Light mode toggle with persistence via localStorage.
 
-Dynamic Content: Interactive project cards that expand to show more details.
+🖱️ Dynamic Interactivity: Interactive project cards that expand to reveal detailed technical descriptions.
 
-Smooth Animations: Sections fade in automatically as the user scrolls.
+🎬 Professional Animations: Smooth "Fade-In" effects triggered by the Intersection Observer API as the user scrolls.
 
-Responsive Design: Fully optimized for both desktop and mobile screens.
+📱 Responsive Architecture: Fully optimized layout for seamless viewing on desktops, tablets, and mobile devices.
 
-Contact Form: A functional form with JavaScript validation and user feedback.
+📩 Validated Contact Form: Functional communication form with real-time JavaScript validation and personalized user feedback.
 
-How to Run
-Clone the repository.
+🛠️ Technologies & Tools
+Structure: HTML5 (Semantic elements for SEO and Accessibility).
 
-Open index.html in any modern web browser.
+Styling: CSS3 (Flexbox for layout, Custom Variables for theming).
 
-Technologies Used
-HTML5 (Semantic Structure)
+Logic: Modern JavaScript (DOM Manipulation & Async behavior).
 
-CSS3 (Flexbox & Transitions)
+AI Integration: Gemini (Utilized for logic refinement, debugging, and documentation).
 
-JavaScript (DOM Manipulation & Intersection Observer API)
+🚀 Getting Started
+Clone this repository to your local machine.
 
-AI Tools (Gemini for logic refinement and documentation)
+Navigate to the root folder.
 
-Developer Info
+Open index.html in any modern web browser to view the live project.
+
+🤖 AI Implementation Summary
+In this assignment, Gemini (Google AI) served as a collaborative technical assistant. The focus was on:
+
+Core Logic: Implementing the localStorage state management for the theme toggle.
+
+Performance Optimization: Boilerplate generation and explanation of the Intersection Observer API for efficient animations.
+
+UI Refinement: Troubleshooting CSS Flexbox alignment and simplifying event listeners for cleaner code.
+
+Note: All AI-suggested code was manually audited, refactored, and personalized to align with the specific requirements of the SAR and Cartier project descriptions.
+
+👤 Developer Information
 Name: Fatimah Alaamer
 
 Student ID: 202267900
 
-University: KFUPM
-
-AI Usage Summary
-In this assignment, Gemini (Google AI) was utilized as a technical assistant to enhance the website's interactivity and code structure. The collaboration focused on three key areas:
-
-Logic Implementation: AI provided the foundational logic for the Dark Mode toggle and the use of localStorage to persist user settings.
-
-Feature Optimization: I used AI to explain and implement the Intersection Observer API for smooth scroll animations, ensuring high performance.
-
-Code Refinement: AI assisted in debugging layout alignment issues (CSS Flexbox) and refining the JavaScript event listeners for a more professional user experience.
-
+University: King Fahd University of Petroleum and Minerals (KFUPM)
 
